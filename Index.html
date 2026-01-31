@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagat Singh Coaching | Ultra Pro</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body { background: #000; color: white; overflow-x: hidden; }
+        
+        /* Neon Glow Effect */
+        .orange { color: #ff6600; text-shadow: 0 0 10px rgba(255, 102, 0, 0.3); }
+        .bg-orange { background: #ff6600; }
+
+        header { 
+            background: rgba(0,0,0,0.9); padding: 15px; text-align: center; 
+            border-bottom: 1px solid #333; position: sticky; top: 0; z-index: 100;
+        }
+
+        .container { padding: 20px; max-width: 600px; margin: auto; }
+
+        /* Stats Section */
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 20px 0; }
+        .stat-card { background: #111; padding: 15px; border-radius: 15px; text-align: center; border: 1px solid #222; }
+        .stat-card h2 { font-size: 24px; color: #ff6600; }
+
+        /* Pro Course Cards */
+        .course-card {
+            background: linear-gradient(145deg, #151515, #0a0a0a);
+            padding: 20px; border-radius: 20px; margin-bottom: 15px;
+            border: 1px solid #222; position: relative; overflow: hidden;
+        }
+        .course-card::after {
+            content: ''; position: absolute; top: 0; left: 0; width: 5px; height: 100%; background: #ff6600;
+        }
+
+        /* Share Button */
+        .share-btn {
+            background: #25d366; color: white; padding: 10px; border-radius: 10px;
+            display: inline-block; margin-top: 10px; text-decoration: none; font-size: 14px; font-weight: bold;
+        }
+
+        /* Map & Footer */
+        .map-frame { width: 100%; height: 200px; border-radius: 15px; border: 1px solid #333; margin-top: 10px; }
+        
+        .footer-nav {
+            position: fixed; bottom: 0; left: 0; width: 100%; 
+            background: #ff6600; display: flex; justify-content: space-around; padding: 15px;
+            box-shadow: 0 -5px 20px rgba(255, 102, 0, 0.3); z-index: 1000;
+        }
+        .footer-nav a { color: white; text-decoration: none; font-weight: bold; font-size: 18px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2 style="letter-spacing: 2px;">BHAGAT SINGH <span class="orange">COACHING</span></h2>
+    </header>
+
+    <div class="container">
+        <div style="text-align: center; padding: 20px 0;">
+            <h1 style="font-size: 38px; font-weight: 900;">बनो <span class="orange">Topper</span></h1>
+            <p style="color: #777;">बेहतरीन फैकल्टी | डिजिटल नोट्स | 100% रिजल्ट</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card"><h2>500+</h2><p style="font-size: 10px;">SELECTIONS</p></div>
+            <div class="stat-card"><h2>10+</h2><p style="font-size: 10px;">EXPERT TEACHERS</p></div>
+        </div>
+
+        <h3 style="margin: 20px 0 10px; border-left: 4px solid #ff6600; padding-left: 10px;">PREMIUM COURSES</h3>
+        
+        <div class="course-card">
+            <h3>Class 10th & 12th</h3>
+            <p style="color: #666; font-size: 13px;">Special Batch for Board Exams</p>
+            <a href="tel:9238611260" style="color: #ff6600; font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Join Now →</a>
+        </div>
+
+        <div class="course-card">
+            <h3>Government Exams</h3>
+            <p style="color: #666; font-size: 13px;">SSC, Railway & State Police</p>
+            <a href="tel:9238611260" style="color: #ff6600; font-weight: bold; text-decoration: none; display: block; margin-top: 10px;">Join Now →</a>
+        </div>
+
+        <div style="text-align: center; margin: 20px 0;">
+            <p style="font-size: 12px; color: #555;">दोस्तों के साथ शेयर करें:</p>
+            <a href="whatsapp://send?text=Check out Bhagat Singh Coaching! Best for Board & Competitive Exams. Call: 9238611260" class="share-btn">
+                WhatsApp पर शेयर करें 📲
+            </a>
+        </div>
+
+        <h3 style="margin: 20px 0 10px; border-left: 4px solid #ff6600; padding-left: 10px;">LOCATION</h3>
+        <p style="font-size: 14px; color: #888; margin-bottom: 10px;">📍 तिलक रोड, सागर, मध्य प्रदेश</p>
+        <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=YOUR_EMBED_LINK_HERE"></iframe>
+
+        <div style="height: 100px;"></div>
+    </div>
+
+    <div class="footer-nav">
+        <a href="tel:9238611260">📞 CALL NOW</a>
+        <div style="width: 1px; background: rgba(255,255,255,0.3);"></div>
+        <a href="https://wa.me/919238611260">💬 WHATSAPP</a>
+    </div>
+
+</body>
+</html>
